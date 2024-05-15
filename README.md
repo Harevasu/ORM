@@ -18,7 +18,8 @@ admin.py
 from django.contrib import admin
 from .models import Book,BookAdmin
 admin.site.register(Book,BookAdmin)
-
+```
+```
 models.py
 from django.db import models
 from django.contrib import admin
